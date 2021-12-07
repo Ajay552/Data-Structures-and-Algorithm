@@ -16,7 +16,7 @@ public class LL_Queues {
             head = node;
             tail = node;
             size++;
-            // return;
+            return;
         }
         tail.next = node;
         tail = node;
@@ -38,13 +38,12 @@ public class LL_Queues {
         return (tail != null) ? tail.val : -1;
     }
 
-}
-
-class Node{
-    int val;
-    Node next;
-    Node(int val){
-        this.val = val;
+    class Node{
+        int val;
+        Node next;
+        Node(int val){
+            this.val = val;
+        }
     }
 }
 
@@ -62,3 +61,4 @@ class Test1{
         System.out.println(q.getFront());
     }
 }
+
