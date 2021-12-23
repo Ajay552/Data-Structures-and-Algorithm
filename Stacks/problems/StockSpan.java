@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/online-stock-span/
+
+import java.util.*;
 public class StockSpan{
   
     class StockSpanner {
