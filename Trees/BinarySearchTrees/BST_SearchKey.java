@@ -29,7 +29,7 @@ public class BST_SearchKey {
       }
   }
 
-  class Node{
+  static class Node{
     int val;
     Node left;
     Node right;

@@ -90,17 +90,18 @@ public class Tree_Operations  {
         System.out.print(root.key+" ");
       }
     }
+    static class Node{
+      int key;
+      Node left;
+      Node right;
+    
+      Node(int key){
+        this.key = key;
+      }
+    }
 }
 
-class Node{
-  int key;
-  Node left;
-  Node right;
 
-  Node(int key){
-    this.key = key;
-  }
-}
 
 
 
